@@ -25,21 +25,21 @@ function levelNotes(nome, posicoes){
     if(posicao[posicoes] <= 5){
         let box = document.createElement('div')
         main.appendChild(box)
-        box.innerHTML = `<p>${nomes[nome]} está com a nota baixa</p>`
+        box.innerHTML = `<p>${nomes[nome]} está com a nota baixa <br> Nota:${posicao[posicoes]}</p>`
         box.style.backgroundColor = 'red'
     } 
     
-    else if(posicao[posicoes] <= 8){
+    else if(posicao[posicoes] <= 7){
         let box = document.createElement('div')
         main.appendChild(box)
-        box.innerHTML = `<p>${nomes[nome]} está com a nota média</p>`
+        box.innerHTML = `<p>${nomes[nome]} está com a nota média <br> Nota:${posicao[posicoes]}</p>`
         box.style.backgroundColor = '#F1BF00'
     }
     
-    else if(posicao[posicoes] >= 9){
+    else if(posicao[posicoes] >= 8){
         let box = document.createElement('div')
         main.appendChild(box)
-        box.innerHTML = `<p>${nomes[nome]} está com a nota alta</p>`
+        box.innerHTML = `<p>${nomes[nome]} está com a nota alta <br> Nota:${posicao[posicoes]}</p>`
         box.style.backgroundColor = 'green'
     } else{
         let box = document.createElement('div')
