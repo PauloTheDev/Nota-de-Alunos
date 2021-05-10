@@ -14,6 +14,7 @@ div > p{
     text-align: center;
     position: absolute;
     left:0;
-    transform: translateX(13%) translateY(40%);
+   
+    transform: translateX(30%) translateY(10%);
 
 }
